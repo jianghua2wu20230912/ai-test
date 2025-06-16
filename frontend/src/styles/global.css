@@ -1,0 +1,54 @@
+/* General body styling (AntD usually handles this well with reset.css) */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5; /* Default AntD layout background */
+}
+
+/* Consistent page title styling if needed beyond AntD Typography.Title */
+.page-title {
+  margin-bottom: 24px; /* Standard spacing */
+}
+
+/* Custom scrollbar styling (optional, can be browser-specific) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+/* Ensure content area has some breathing room if not using full-width pages */
+.main-content-area {
+  /* max-width: 1400px; /* Example: if you want to cap content width */
+  /* margin: 0 auto; /* Center if max-width is used */
+  padding: 24px; /* Default padding for content sections */
+}
+
+/* Card styling consistency */
+.ant-card {
+  margin-bottom: 24px; /* Standard spacing between cards */
+}
+
+/* Table action buttons - ensure they don't wrap too aggressively */
+.ant-table-cell .ant-space-item {
+  /* white-space: nowrap; /* If you want to prevent wrapping of action buttons */
+}
+
+/* Utility class for full width buttons if needed */
+.full-width-button {
+    width: 100%;
+}

@@ -143,7 +143,7 @@ const ProjectListPage: React.FC = () => {
       key: 'actions',
       render: (_: any, record: Project) => (
         <Space size="middle">
-          <Button icon={<EditOutlined />} onClick={() => handleEdit(record)} disabled={loading}>
+          <Button icon={<EditOutlined />} onClick={() => handleEdit(record)} disabled={loading} size="small">
             Edit
           </Button>
           <Popconfirm
@@ -153,7 +153,7 @@ const ProjectListPage: React.FC = () => {
             cancelText="No"
             disabled={loading}
           >
-            <Button icon={<DeleteOutlined />} danger disabled={loading}>
+            <Button icon={<DeleteOutlined />} danger disabled={loading} size="small">
               Delete
             </Button>
           </Popconfirm>

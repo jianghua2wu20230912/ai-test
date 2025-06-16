@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 import 'antd/dist/reset.css'; // Ant Design CSS reset
+import './styles/global.css'; // Import global styles
 import { Provider } from 'react-redux';
 import { store } from './store';
 

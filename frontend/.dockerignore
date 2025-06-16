@@ -1,0 +1,34 @@
+# Node modules
+node_modules
+
+# Build output
+dist
+build
+
+# Vite specific cache
+.vite
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables files
+.env
+.env*.local
+.env*.development
+.env*.production
+*.env
+
+# IDE and OS specific files
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Git folder
+.git
+.gitignore
+
+# Test coverage
+coverage

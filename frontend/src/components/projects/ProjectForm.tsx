@@ -57,6 +57,7 @@ const ProjectForm: React.FC<ProjectFormProps> = ({
           {initialValues ? 'Save Changes' : 'Create'}
         </Button>,
       ]}
+      destroyOnClose // Added for consistency
     >
       <Form form={form} layout="vertical" name="project_form">
         <Form.Item
